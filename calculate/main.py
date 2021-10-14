@@ -1,4 +1,4 @@
-import math
+﻿import math
 
 import mysum
 
@@ -48,6 +48,7 @@ def main():
                 else: # Иначе
                     # Выводим сообщение, что на ноль делить нельзя
                     print("Деление на ноль!")
+                print('%.2f / %.2f = %.2f' % (x, y, x/y))
 
 if __name__ == "__main__":
     main()
